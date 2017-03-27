@@ -12,15 +12,6 @@ export default class Color extends React.Component {
         this._handleChange = this._handleChange.bind(this);
     }
 
-    componentWillMount(){
-        document.querySelector('body').style = 'background:yellow'
-
-    }
-
-    componentDidMount(){
-        document.querySelector('body').style = 'background:green'
-    }
-
     _handleChange(event){
         this.setState({
             color:event.target.value
@@ -28,7 +19,6 @@ export default class Color extends React.Component {
     }
 
     render (){
-        
         return(
             <div>
                 <select onChange={this._handleChange}>
@@ -42,4 +32,4 @@ export default class Color extends React.Component {
     }
 }
 
-ReactDOM.render(<Color colors={['amarillo','rojo']}/>, document.querySelector('#example'));
+ReactDOM.render(<Color />, document.querySelector('#example'));

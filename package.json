@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --content-base public/ --port 4000 --inline --hot"
+    "dev": "webpack-dev-server --content-base public/ --port 5000 --inline --hot"
   },
   "author": "s",
   "license": "ISC",

@@ -3,8 +3,8 @@ var path = require('path');
 
 
 module.exports = {
-    context: __dirname,
-    entry: "./src/components/index.jsx",
+    context: path.join(__dirname, '/src'),
+    entry: "./components/controller.jsx",
     output: {
         path: path.resolve(__dirname + "/public/dist"),
         filename: "bundle.js",
