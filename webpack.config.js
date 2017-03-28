@@ -1,4 +1,3 @@
-var path = require('path');
 module.exports = {
     entry: "./src/controller.js",
     output: {
@@ -20,4 +19,4 @@ module.exports = {
     devServer: {
         historyApiFallback: true
     }
-}
+};
