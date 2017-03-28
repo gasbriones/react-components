@@ -1,18 +1,15 @@
 import  React from 'react'
-import ReactDOM from 'react-dom'
-
 export default class Color extends React.Component {
     constructor(props){
         super(props);
         this.state = {
             color:'blue'
         };
-        this._colors = props.colors;
 
-        this._handleChange = this._handleChange.bind(this);
+        this._colors = props.colors;
     }
 
-    _handleChange(event){
+    _handleChange = (event) =>{
         this.setState({
             color:event.target.value
         })
@@ -31,5 +28,3 @@ export default class Color extends React.Component {
         );
     }
 }
-
-ReactDOM.render(<Color />, document.querySelector('#example'));

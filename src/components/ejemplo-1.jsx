@@ -67,7 +67,6 @@ export default class Combo extends React.Component {
             </div>
         );
     }
-
 }
 
 
