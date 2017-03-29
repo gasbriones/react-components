@@ -68,6 +68,3 @@ export default class Combo extends React.Component {
         );
     }
 }
-
-
-ReactDOM.render(<Combo datos={['Frutas', 'Verduras']}/>, document.querySelector('#example'));

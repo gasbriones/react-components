@@ -1,9 +1,48 @@
-//import ReactDOM from 'react-dom'
-//import  React from 'react'
-//import Color from './components/ejemplo-3';
+import ReactDOM from 'react-dom'
+import  React from 'react'
 
-//ReactDOM.render(<Color colors={['Rojo', 'blanco']} />, document.querySelector('#example'));
+import Users from './components/users/jsx/users'
 
+ReactDOM.render(<Users api={'https://jsonplaceholder.typicode.com/users'} /> ,document.querySelector('#example'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 import store from './reducers/reducer'
 import action from './actions/action';
 import action2 from './actions/action2';
@@ -14,4 +53,4 @@ console.log(store.getState());
 
 store.dispatch(action2);
 
-console.log(store.getState());
+console.log(store.getState()); */
